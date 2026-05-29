@@ -14,7 +14,7 @@ In that sense it resembles the _how_to_ tutorials from Jonathan Blow which are d
 
 At the same time, parallel guides with more in-depth information will also be provided, but they are not needed to learn basic Jai programming.
 
-We carefully wanted to avoid introducing a subject before all concepts needed to understand that subject where discussed. This for example resulted in strings being discussed as late as in § 19, because a string is defined as a struct, and is in fact also an array view ([] u8). Arrays are explored in § 18, after structs, because they are also defined as a struct. So structs, being more fundamental, were discussed in § 12. It turns out, conceptually at least, that structs are the most fundamental type in Jai.
+We carefully wanted to avoid introducing a subject before all concepts needed to understand that subject were discussed. This for example resulted in strings being discussed as late as in § 19, because a string is defined as a struct, and is in fact also an array view ([] u8). Arrays are explored in § 18, after structs, because they are also defined as a struct. So structs, being more fundamental, were discussed in § 12. It turns out, conceptually at least, that structs are the most fundamental type in Jai.
 
 Probably you will want to know more about how to work with strings before reaching § 19; it's not a problem to look up what you need.
 
