@@ -14,7 +14,7 @@ In that sense it resembles the _how_to_ tutorials from Jonathan Blow which are d
 
 At the same time, parallel guides with more in-depth information will also be provided, but they are not needed to learn basic Jai programming.
 
-We carefully wanted to avoid introducing a subject before all concepts needed to understand that subject were discussed. This for example resulted in strings being discussed as late as in § 19, because a string is defined as a struct, and is in fact also an array view ([] u8). Arrays are explored in § 18, after structs, because they are also defined as a struct. So structs, being more fundamental, were discussed in § 12. It turns out, conceptually at least, that structs are the most fundamental type in Jai.
+We carefully wanted to avoid introducing a subject before all concepts needed to understand that subject were discussed. This for example resulted in strings being discussed as late as in § 19, because a string is defined as a struct, and is in fact also an array view (`[] u8`). Arrays are explored in § 18, after structs, because they are also defined as a struct. So structs, being more fundamental, were discussed in § 12. It turns out, conceptually at least, that structs are the most fundamental type in Jai.
 
 Probably you will want to know more about how to work with strings before reaching § 19; it's not a problem to look up what you need.
 
@@ -22,7 +22,7 @@ To find specific material, you could start at the front page of the GitHub repo,
 
 The material is divided into numbered chapters **1_**, **2_**, and so on; **2B_** , **2C_** is the numbering for the more detailed info, in this case after chapter 2. Each chapter has an accompanying folder _examples/N_  (where N is the chapter's number) with working code examples, and in some cases also a subfolder _exercises/N_, containing solutions to questions / exercises in the text. Code examples are also numbered like **2.1_**, **2.2_**, and so on, and each contains a complete working program, showing only one newly discussed item each. We'll often leave off the n.m_ prefix for readability in the text. (Note that compiling a 2.1_program.jai file will result in a 2.exe or 2 executable file - which is easy for testing ;-)) This numbering scheme results in a great number of small examples, but it simplifies and enhances the learning experience.
 
-Within code listings, important code lines will be indicated with **// (1)**, **// (2)** and so on, after the code. These numbers are referred to in the text discussion. Any output of a program will be shown in the text as well as in the snippet itself, after a **// =>** in the code line itself or on the following line if needed. If the output is too big, it will be shown within /*  */ after the last code line.
+Within code listings, important code lines will be indicated with **`// (1)`**, **`// (2)`** and so on, after the code. These numbers are referred to in the text discussion. Any output of a program will be shown in the text as well as in the snippet itself, after a **`// =>`** in the code line itself or on the following line if needed. If the output is too big, it will be shown within `/*  */` after the last code line.
 
 Code examples are always completely shown in the text (unless otherwise stated), so you don't need to switch between files.
 
@@ -44,6 +44,7 @@ main :: () {
 ```
 
 We'll use _italics_ for folder names, module names, other packages, and also for the output of running programs.  
+
 We'll use **bold** for important concepts, new keywords and directives.
 
 Sometimes comparisons will be made with other programming languages, to better engage experienced developers, but these will be outside the main text.
@@ -57,6 +58,7 @@ Also for those of you who are beginning their programming journey, do speak out 
 Later on this becomes automatic, but in the beginning stages it is very helpful to not be overwhelmed by code which seems more complex at first.
 
 Nobody else than Jonathan Blow himself can express it in a better way, so here is an excerpt from how_to/200_memory_management (a must-read, together with 999_temperance):
+
 ```
 This language is designed for you, the individual. We expect you to enjoy
 that magical part of programming where the computer is made to do new and
