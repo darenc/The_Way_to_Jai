@@ -18,11 +18,10 @@ Jai is an **ahead of time (AOT) compiled** language, with strong *meta-programmi
  
 It was designed with these goals in mind:
 
-    • A simple, consistent syntax and a lot of expressive power leading to an increase
-     in developer’s productivity and joy and fun in programming.
-    • A very high-speed compiler, to make the developer cycle more productive and enjoyable. No more coffee breaks between builds for you!
-    • Excellent performance, on par with C++, or even C.
-    • Safety in execution and useful compiler error-messages, to reduce the need for debugging.
+- A simple, consistent syntax and a lot of expressive power leading to an increase in developer’s productivity and joy and fun in programming.
+- A very high-speed compiler, to make the developer cycle more productive and enjoyable. No more coffee breaks between builds for you!
+- Excellent performance, on par with C++, or even C.
+- Safety in execution and useful compiler error-messages, to reduce the need for debugging.
     
 To realize these goals, Jai for example has no garbage collection (GC) and no exception handling mechanism like Java or C#.
 
